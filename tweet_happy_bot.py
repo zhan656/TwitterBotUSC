@@ -26,7 +26,7 @@ happy_quotes = [
     "The happiness of your life depends upon the quality of your thoughts. - Marcus Aurelius",
     "Now and then it's good to pause in our pursuit of happiness and just be happy. - Guillaume Apollinaire"]
 i = 0
-while i < 20:
+while i < 7:
     api.update_status(choice(happy_quotes))
     print("tweet successfully!")
     i += 1
