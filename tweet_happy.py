@@ -1,7 +1,7 @@
 # Dependencies
 import tweepy
 import json
-from config import ConsumerKey, ConsumerSecret, AccessToken, AccessTokenSecret
+#from config import ConsumerKey, ConsumerSecret, AccessToken, AccessTokenSecret
 from random import sample
 import time
 import os
