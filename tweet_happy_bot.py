@@ -25,8 +25,9 @@ happy_quotes = [
     "Happiness is a warm puppy. - Charles M. Schulz",
     "The happiness of your life depends upon the quality of your thoughts. - Marcus Aurelius",
     "Now and then it's good to pause in our pursuit of happiness and just be happy. - Guillaume Apollinaire"]
-
-while (True):
+i = 0
+while i < 20:
     api.update_status(choice(happy_quotes))
     print("tweet successfully!")
-    time.sleep(5)
+    i += 1
+    time.sleep(10)
