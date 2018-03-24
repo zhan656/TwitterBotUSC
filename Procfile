@@ -1,1 +1,1 @@
-worker: python ChatterBot.py
+worker: python tweet_happy_bot.py
