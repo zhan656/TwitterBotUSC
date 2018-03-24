@@ -27,8 +27,6 @@ happy_quotes = [
     "Now and then it's good to pause in our pursuit of happiness and just be happy. - Guillaume Apollinaire"]
 i = 0
 while i < 7:
-<<<<<<< HEAD
-<<<<<<< HEAD
     try:
         api.update_status(choice(happy_quotes)+str(i))
         print("tweet successfully!")
@@ -36,14 +34,3 @@ while i < 7:
         time.sleep(10)
     except:
         pass
-=======
-=======
->>>>>>> 0a547150092b8f6be3998d6e83239c7bf21bc9da
-    api.update_status(choice(happy_quotes))
-    print("tweet successfully!")
-    i += 1
-    time.sleep(10)
-<<<<<<< HEAD
->>>>>>> 0a547150092b8f6be3998d6e83239c7bf21bc9da
-=======
->>>>>>> 0a547150092b8f6be3998d6e83239c7bf21bc9da
