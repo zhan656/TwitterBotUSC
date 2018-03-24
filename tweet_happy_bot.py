@@ -2,7 +2,7 @@
 import tweepy
 import json
 #from config import ConsumerKey, ConsumerSecret, AccessToken, AccessTokenSecret
-from random import sample
+from random import choice
 import time
 import os
 
@@ -26,6 +26,7 @@ happy_quotes = [
     "The happiness of your life depends upon the quality of your thoughts. - Marcus Aurelius",
     "Now and then it's good to pause in our pursuit of happiness and just be happy. - Guillaume Apollinaire"]
 
-for i in sample(list(range(7)),k = 7):
-    api.update_status(status = happy_quotes[i])
+while (True):
+    api.update_status(choice(happy_quotes))
+    print("tweet successfully!")
     time.sleep(5)
